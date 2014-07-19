@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Control via SMS</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="menu_drawer">
+        <item>Home</item>
+        <item>WiFi</item>
+        <item>Data</item>
+        <item>Beep</item>
+        <item>GPS</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="notAPhone">Your device doesn\'t contain a SIM card.</string>
+    <string name="home">Welcome to \"Remote control via SMS\". This app allows you to enable
+	    data and wifi settings remotly, to produce a loud beep, or to receive the current GPS location of your phone. That can be
+	    done on receiving specific SMS that you\'ll determine. All the settings are accessible via the menu on the left.</string>
+    <string name="noplayservices">Your version of Google Play services isn\'t recent enough to use that feature. Please upgrade it.</string>
+    <string name="alarmstop">STOP THE ALARM</string>
+    <string name="stop">STOP</string>
+    <string name="icon">icon</string>
+	<string name="bugdroid">Wallpaper</string>
+	<string name="location_bug">The location cannot be determined.</string>
+	<string name="location_no_acuracy">Imprecise location.</string>
+</resources>

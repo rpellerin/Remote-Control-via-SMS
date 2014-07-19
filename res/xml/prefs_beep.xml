@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:romainpellerin="http://romainpellerin.eu" >
+
+    <PreferenceCategory android:title="@string/pref_general" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="beep_enable"
+            android:summaryOff="@string/pref_disabled"
+            android:summaryOn="@string/pref_enabled"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:title="@string/pref_enable" />
+
+        <EditTextPreference
+            android:defaultValue="beep"
+            android:inputType="textNoSuggestions"
+            android:key="beep_sms"
+            android:maxLength="10"
+            android:summary="@string/max_char"
+            android:title="@string/sms_to_enable" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="beep_play_again"
+            android:summaryOff="@string/pref_no"
+            android:summaryOn="@string/pref_yes"
+            android:title="@string/beep_play_again" />
+
+        <eu.romainpellerin.remotecontrolviasms.SeekBarPreference
+            android:defaultValue="100"
+            android:key="volume"
+            android:max="100"
+            android:title="@string/beep_vol"
+            android:summary="@string/beep_vol_sum"
+            romainpellerin:min="0"
+            romainpellerin:unitsLeft=""
+            romainpellerin:unitsRight="%" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

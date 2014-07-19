@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_general">Général</string>
+    <string name="pref_enable">Activer</string>
+    <string name="pref_on">Oui</string>
+    <string name="pref_off">Non</string>
+    <string name="pref_enabled">Activé</string>
+    <string name="pref_disabled">Désactivé</string>
+    <string name="pref_yes">Oui</string>
+    <string name="pref_no">Non</string>
+    <string name="sms_to_enable">SMS déclencheur</string>
+    <string name="max_char">10 carac. max / Non sensible à la casse</string>
+    
+    <!-- BEEP -->
+    <string name="beep_play_again">Lecture en boucle ?</string>
+    <string name="beep_vol">Volume</string>
+    <string name="beep_vol_sum">Ajuster le volume de l\'alarme</string>
+</resources>
