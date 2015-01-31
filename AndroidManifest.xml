@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="eu.romainpellerin.remotecontrolviasms"
-    android:versionCode="16"
-    android:versionName="1.0.4" >
-    
+    android:versionCode="17"
+    android:versionName="1.1" >
+
     <uses-sdk
         android:minSdkVersion="15"
         android:targetSdkVersion="19" />
@@ -15,19 +15,21 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <!-- Google Analytics -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppBaseTheme" >
-        
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-        
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
             android:name="eu.romainpellerin.remotecontrolviasms.MainActivity"
             android:label="@string/app_name" >
@@ -38,6 +40,12 @@
             </intent-filter>
         </activity>
 
+        <receiver android:name="eu.romainpellerin.remotecontrolviasms.BootCompletedReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
         <receiver
             android:name="eu.romainpellerin.remotecontrolviasms.SmsReceiver"
             android:exported="true" >
@@ -45,6 +53,16 @@
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
         </receiver>
+        <receiver android:name="eu.romainpellerin.remotecontrolviasms.PowerButtonReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" >
+                </action>
+                <action android:name="android.intent.action.SCREEN_ON" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="eu.romainpellerin.remotecontrolviasms.PowerButtonService" />
 
         <activity
             android:name="eu.romainpellerin.remotecontrolviasms.CancelAlarm"

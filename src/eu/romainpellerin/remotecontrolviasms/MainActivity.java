@@ -1,13 +1,12 @@
 package eu.romainpellerin.remotecontrolviasms;
 
-import com.google.analytics.tracking.android.EasyTracker;
-
-import android.os.Bundle;
-import android.os.Handler;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.os.Bundle;
+import android.os.Handler;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -19,9 +18,11 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
+import com.google.analytics.tracking.android.EasyTracker;
+
 public class MainActivity extends Activity {
 
-	private String[] menuDrawer; // va chercher les strings dans values/strings � afficher dans le menu
+	private String[] menuDrawer; // va chercher les strings dans values/strings à afficher dans le menu
 	private ListView menuDrawerView; // la listview du drawer
 	private DrawerLayout mDrawerLayout; // la view root, le drawer
     private ActionBarDrawerToggle mDrawerToggle;
@@ -98,9 +99,10 @@ public class MainActivity extends Activity {
               }
             }, 500);
         }
-        if(!drawOpen) { // si ferm� on met le titre du fragment actuel
+        if(!drawOpen) { // si fermé on met le titre du fragment actuel
         	setTitle(titleFrag);
         }
+        startService(new Intent(this, PowerButtonService.class));
     }
 
     @Override
@@ -120,7 +122,7 @@ public class MainActivity extends Activity {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
         	return true;
         }
-        // Ici, actions de l'ActionBar sauf cliquer sur le logo, qui est g�r� plus haut. On sait si c'est le logo grace a la ligne du dessus
+        // Ici, actions de l'ActionBar sauf cliquer sur le logo, qui est géré plus haut. On sait si c'est le logo grace a la ligne du dessus
         return super.onOptionsItemSelected(item);
     }
 

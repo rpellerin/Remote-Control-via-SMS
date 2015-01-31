@@ -9,6 +9,7 @@
         <item>2G/3G/4G</item>
         <item>Bip sonore</item>
         <item>GPS</item>
+        <item>Urgence</item>
     </string-array>
     <string name="drawer_open">Menu ouvert</string>
     <string name="drawer_close">Menu fermé</string>
@@ -23,4 +24,6 @@
 	<string name="bugdroid">Fond d\'écran</string>
 	<string name="location_bug">Impossible de trouver la position GPS.</string>
 	<string name="location_no_acuracy">Emplacement imprécis.</string>
+	<string name="emergency_about">Appuyez 3 fois sur le bouton ON/OFF en moins de 4 secondes pour envoyer ce message.</string>
+	<string name="sms_sent">Message d\'urgence envoyé</string>
 </resources>

@@ -1,14 +1,14 @@
 package eu.romainpellerin.remotecontrolviasms;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GooglePlayServicesUtil;
-
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
 
 public class MyPreferenceFragment extends PreferenceFragment {
     public static final String ARG_PAGE = "page_number";
@@ -48,7 +48,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
         	break;
         case 4: /* gps */
         	addPreferencesFromResource(R.xml.prefs_gps);
-        	PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_beep, true);
+        	PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_gps, true);
         	if (!prefs.getBoolean("gps_enable", true)) {
         		getPreferenceScreen().findPreference("gps_sms").setEnabled(false);
         	}
@@ -66,6 +66,16 @@ public class MyPreferenceFragment extends PreferenceFragment {
     				Toast.makeText(getActivity(),R.string.noplayservices, Toast.LENGTH_LONG).show();
     	        }
     		}
+        	break;
+        case 5: // emergency
+        	addPreferencesFromResource(R.xml.prefs_emergency);
+        	PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_emergency, true);
+        	if (!prefs.getBoolean("emergency_enable", true)) {
+        		getPreferenceScreen().findPreference("emergency_sms").setEnabled(false);
+        		getPreferenceScreen().findPreference("emergency_recipient").setEnabled(false);
+        	}
+        	getPreferenceScreen().findPreference("emergency_sms").setSummary(prefs.getString("emergency_sms", "EMERGENCY!"));
+        	getPreferenceScreen().findPreference("emergency_recipient").setSummary(prefs.getString("emergency_recipient", "123"));
         	break;
         default:
         	break;
@@ -89,6 +99,15 @@ public class MyPreferenceFragment extends PreferenceFragment {
 				else if(key.equals("gps_enable")) {
 					boolean bool = sharedPreferences.getBoolean(key, false);
 					getPreferenceScreen().findPreference("gps_sms").setEnabled(bool);
+				}
+				else if(key.equals("emergency_enable")) {
+					boolean bool = sharedPreferences.getBoolean(key, false);
+					getPreferenceScreen().findPreference("emergency_sms").setEnabled(bool);
+					getPreferenceScreen().findPreference("emergency_recipient").setEnabled(bool);
+				}
+				else if(key.equals("emergency_sms") || key.equals("emergency_recipient")) {
+					getPreferenceScreen().findPreference("emergency_sms").setSummary(sharedPreferences.getString("emergency_sms", "EMERGENCY!"));
+		        	getPreferenceScreen().findPreference("emergency_recipient").setSummary(sharedPreferences.getString("emergency_recipient", "123"));
 				}
 			}
         };

@@ -10,6 +10,7 @@
         <item>Data</item>
         <item>Beep</item>
         <item>GPS</item>
+        <item>Emergency</item>
     </string-array>
 
     <string name="drawer_open">Open navigation drawer</string>
@@ -25,4 +26,6 @@
 	<string name="bugdroid">Wallpaper</string>
 	<string name="location_bug">The location cannot be determined.</string>
 	<string name="location_no_acuracy">Imprecise location.</string>
+	<string name="emergency_about">Press 3 times \'Power button\' in less than 4 seconds to send this message.</string>
+	<string name="sms_sent">Emergency SMS sent</string>
 </resources>

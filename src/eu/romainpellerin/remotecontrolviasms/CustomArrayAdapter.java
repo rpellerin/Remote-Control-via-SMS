@@ -45,6 +45,9 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
 		case 4:
 			imageView.setImageResource(R.drawable.gps);
 			break;
+		case 5:
+			imageView.setImageResource(R.drawable.emergency);
+			break;
 		}
  
 		return rowView;
