@@ -25,7 +25,7 @@
     <string name="icon">icon</string>
 	<string name="bugdroid">Wallpaper</string>
 	<string name="location_bug">The location cannot be determined.</string>
-	<string name="location_no_acuracy">Imprecise location.</string>
-	<string name="emergency_about">Press 3 times \'Power button\' in less than 4 seconds to send this message.</string>
+	<string name="location_no_acuracy">Imprecise location (internet is off?).</string>
+	<string name="emergency_about">Press 3 times \'Power button\' in less than 4 seconds to send this message. You can add as many recipients as you want, separated with commas.</string>
 	<string name="sms_sent">Emergency SMS sent</string>
 </resources>

@@ -10,7 +10,7 @@
     <string name="pref_no">Non</string>
     <string name="sms_to_enable">SMS déclencheur</string>
     <string name="sms_to_send">SMS à envoyer</string>
-    <string name="recipient">Destinataire</string>
+    <string name="recipient">Destinataire(s)</string>
     <string name="max_char">10 carac. max / Non sensible à la casse</string>
     
     <!-- BEEP -->

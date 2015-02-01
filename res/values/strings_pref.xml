@@ -10,7 +10,7 @@
     <string name="pref_no">No</string>
     <string name="sms_to_enable">SMS to be received</string>
     <string name="sms_to_send">SMS to send</string>
-    <string name="recipient">Recipient</string>
+    <string name="recipient">Recipient(s)</string>
     <string name="max_char">10 char. max / Not case sensitive</string>
     
     <!-- BEEP -->

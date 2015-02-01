@@ -1,6 +1,5 @@
 package eu.romainpellerin.remotecontrolviasms;
 
-import java.io.IOException;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.List;
@@ -22,18 +21,17 @@ import android.preference.PreferenceManager;
 import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
 
-
 /* Google Analytics */
 import com.google.analytics.tracking.android.GAServiceManager;
 import com.google.analytics.tracking.android.GoogleAnalytics;
 import com.google.analytics.tracking.android.Tracker;
-
 /* LOCATION */
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
-import com.google.android.gms.common.GooglePlayServicesClient.ConnectionCallbacks;
-import com.google.android.gms.common.GooglePlayServicesClient.OnConnectionFailedListener;
-import com.google.android.gms.location.LocationClient;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
+import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
+import com.google.android.gms.location.LocationServices;
 
 public class SmsReceiver extends BroadcastReceiver implements ConnectionCallbacks, OnConnectionFailedListener {
 
@@ -42,7 +40,7 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 	private static MediaPlayer mp;
 	private static AudioManager audioManager;
 	private static int val_ini; // volume
-	private LocationClient locationClient;
+	private GoogleApiClient mGoogleApiClient;
 	
 	@Override
 	public void onReceive(Context context, Intent intent) {
@@ -116,12 +114,15 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 	                if (loopmode) context.startActivity(inte);
 				}
             }
-			if (body.equalsIgnoreCase(prefs.getString("gps_sms", "wifi")) && prefs.getBoolean("gps_enable", false) && GooglePlayServicesUtil.isGooglePlayServicesAvailable(context) == ConnectionResult.SUCCESS) { // GPS
-				
+			if (body.equalsIgnoreCase(prefs.getString("gps_sms", "gps")) && prefs.getBoolean("gps_enable", false) && GooglePlayServicesUtil.isGooglePlayServicesAvailable(context) == ConnectionResult.SUCCESS) { // GPS
 				mGaTracker.sendEvent("received_sms", "received_sms", "GPS", null);
 				
-				locationClient = new LocationClient(context, this, this);
-				locationClient.connect();
+				mGoogleApiClient = new GoogleApiClient.Builder(context)
+					.addConnectionCallbacks(this)
+					.addOnConnectionFailedListener(this)
+					.addApi(LocationServices.API)
+					.build();
+				mGoogleApiClient.connect();
             }
 			GAServiceManager.getInstance().dispatch(); // commit les données vers GA
         }
@@ -135,57 +136,9 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 		// Remet le volume tel qu'il était avant
         audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, val_ini, AudioManager.FLAG_VIBRATE);
 	}
-
-	@Override
-	public void onConnectionFailed(ConnectionResult arg0) {
-		SmsManager manager = SmsManager.getDefault();
-		manager.sendTextMessage(phoneNumber, null, "Connection failed", null, null);
-	}
-
-	@Override
-	public void onConnected(Bundle arg0) {
-		Thread a = new Thread() {
-			@Override
-			public void run() {
-				Location loc = null;
-				int counter = 0;
-				do {
-					try {
-						Thread.sleep(500);
-					} catch (InterruptedException e) {}
-					loc = locationClient.getLastLocation();
-					counter++;
-					if (counter>120) return;
-				}while(loc==null);
-				
-				String url = cont.getResources().getString(R.string.location_bug);
-				if (loc != null) {
-					String lat = String.valueOf(loc.getLatitude());
-					String lon = String.valueOf(loc.getLongitude());
-					url = "http://maps.google.com/maps?q="+lat+","+lon;
-				}
-					
-				String adress = cont.getResources().getString(R.string.location_no_acuracy);
-				Geocoder geocoder = new Geocoder(cont);
-				try {
-					List<Address> result = geocoder.getFromLocation(loc.getLatitude(), loc.getLongitude(), 1);
-					adress = addressToText(result.get(0)).toString();
-				} catch (IOException e) {
-				}
-				SmsManager manager = SmsManager.getDefault();
-				String msg = adress+" (precision="+loc.getAccuracy()+"m)";
-				manager.sendTextMessage(phoneNumber, null, msg, null, null);
-				manager.sendTextMessage(phoneNumber, null, url, null, null);
-				if (locationClient.isConnected()) locationClient.disconnect();
-			}
-		};
-		a.start();
-	}
-
-	@Override
-	public void onDisconnected() {}
 	
-	private StringBuffer addressToText(Address address) {
+	private StringBuffer addressToText(Address address) throws Exception {
+		if (address == null) throw new Exception("No address provided");
 		final StringBuffer addressText = new StringBuffer();
 		for (int i = 0, max = address.getMaxAddressLineIndex(); i < max; ++i) {
 			addressText.append(address.getAddressLine(i));
@@ -196,5 +149,60 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 		addressText.append(", ");
 		addressText.append(address.getCountryName());
 		return addressText;
+	}
+
+	@Override
+    public void onConnected(Bundle connectionHint) {
+        Thread a = new Thread() {
+			@Override
+			public void run() {
+				Location mLastLocation = null;
+				int counter = 0;
+				do {
+					try {
+						Thread.sleep(500);
+					} catch (InterruptedException e) {}
+					mLastLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+					counter++;
+					if (counter>120 && mLastLocation==null) return;
+				}while(mLastLocation==null);
+				
+				String adress = cont.getResources().getString(R.string.location_no_acuracy);
+				String url = cont.getResources().getString(R.string.location_bug);
+				
+				if (mLastLocation != null) {
+					String lat = String.valueOf(mLastLocation.getLatitude());
+					String lon = String.valueOf(mLastLocation.getLongitude());
+					url = "http://maps.google.com/maps?q="+lat+","+lon;
+					
+					Geocoder geocoder = new Geocoder(cont);
+					try {
+						List<Address> result = geocoder.getFromLocation(mLastLocation.getLatitude(), mLastLocation.getLongitude(), 1);
+						adress = addressToText(result.get(0)).toString();
+					} catch (Exception e) {
+						adress = cont.getResources().getString(R.string.location_no_acuracy);
+					}
+				}
+					
+				SmsManager manager = SmsManager.getDefault();
+				String msg = adress+" (precision="+mLastLocation.getAccuracy()+"m)";
+				manager.sendTextMessage(phoneNumber, null, msg, null, null);
+				manager.sendTextMessage(phoneNumber, null, url, null, null);
+				if (mGoogleApiClient.isConnected()) mGoogleApiClient.disconnect();
+			}
+		};
+		a.start();
+    }
+
+	@Override
+	public void onConnectionSuspended(int cause) {
+		SmsManager manager = SmsManager.getDefault();
+		manager.sendTextMessage(phoneNumber, null, "Connection failed (suspended, code: "+String.valueOf(cause)+")", null, null);
+	}
+
+	@Override
+	public void onConnectionFailed(ConnectionResult result) {
+		SmsManager manager = SmsManager.getDefault();
+		manager.sendTextMessage(phoneNumber, null, "Connection failed", null, null);
 	}
 }

@@ -18,13 +18,13 @@
             android:defaultValue="EMERGENCY!"
             android:key="emergency_sms"
             android:inputType="textNoSuggestions"
-            android:maxLength="200"
+            android:maxLength="500"
             android:title="@string/sms_to_send" />
         <EditTextPreference
             android:defaultValue="123"
             android:key="emergency_recipient"
             android:inputType="textNoSuggestions"
-            android:maxLength="20"
+            android:maxLength="500"
             android:title="@string/recipient" />
     </PreferenceCategory>
 </PreferenceScreen>
