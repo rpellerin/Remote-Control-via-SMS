@@ -2,6 +2,7 @@ package eu.romainpellerin.remotecontrolviasms;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
@@ -32,8 +33,14 @@ public class MyPreferenceFragment extends PreferenceFragment {
         	}
         	break;
         case 2: /* data */
+        	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
+        		prefs.edit().putBoolean("data_enable", false).commit();
         	addPreferencesFromResource(R.xml.prefs_data);
         	PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_data, true);
+        	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        		getPreferenceScreen().findPreference("data_enable").setEnabled(false);
+        		Toast.makeText(getActivity(),R.string.lolipop_nodata, Toast.LENGTH_LONG).show();
+        	}
         	if (!prefs.getBoolean("data_enable", true)) {
         		getPreferenceScreen().findPreference("data_sms").setEnabled(false);
         	}

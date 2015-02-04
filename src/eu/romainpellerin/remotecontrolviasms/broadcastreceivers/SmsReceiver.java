@@ -1,4 +1,4 @@
-package eu.romainpellerin.remotecontrolviasms;
+package eu.romainpellerin.remotecontrolviasms.broadcastreceivers;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -16,14 +16,14 @@ import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
 import android.net.ConnectivityManager;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
 
-/* Google Analytics */
-import com.google.analytics.tracking.android.GAServiceManager;
 import com.google.analytics.tracking.android.GoogleAnalytics;
+import com.google.analytics.tracking.android.MapBuilder;
 import com.google.analytics.tracking.android.Tracker;
 /* LOCATION */
 import com.google.android.gms.common.ConnectionResult;
@@ -32,6 +32,10 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
 import com.google.android.gms.location.LocationServices;
+
+import eu.romainpellerin.remotecontrolviasms.R;
+import eu.romainpellerin.remotecontrolviasms.activities.CancelAlarm;
+/* Google Analytics */
 
 public class SmsReceiver extends BroadcastReceiver implements ConnectionCallbacks, OnConnectionFailedListener {
 
@@ -61,13 +65,13 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
             String body = sms.getMessageBody().toString();
             
 			if (body.equalsIgnoreCase(prefs.getString("wifi_sms", "wifi")) && prefs.getBoolean("wifi_enable", true)) { // WIFI
-				mGaTracker.sendEvent("received_sms", "received_sms", "WIFI", null);
+				mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "WIFI", null).build());
 				
 				WifiManager wifi = (WifiManager) context.getSystemService(Context.WIFI_SERVICE); 
 				wifi.setWifiEnabled(true);
             }
 			if (body.equalsIgnoreCase(prefs.getString("data_sms", "data")) && prefs.getBoolean("data_enable", true)) { // DATA
-            	mGaTracker.sendEvent("received_sms", "received_sms", "DATA", null);
+            	mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "DATA", null).build());
             	
 				final ConnectivityManager conman = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
 				try {
@@ -80,11 +84,12 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 					setMobileDataEnabledMethod.setAccessible(true);
 					setMobileDataEnabledMethod.invoke(iConnectivityManager, true);
 				} catch (Exception e) { // many
-					e.printStackTrace();
+					if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
+						e.printStackTrace();
 				}
             }
 			if (body.equalsIgnoreCase(prefs.getString("beep_sms", "beep")) && prefs.getBoolean("beep_enable", true)) { // BEEP
-				mGaTracker.sendEvent("received_sms", "received_sms", "BEEP", null);
+				mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "BEEP", null).build());
 				
 				if (mp==null) {
 					// Volume
@@ -115,7 +120,7 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 				}
             }
 			if (body.equalsIgnoreCase(prefs.getString("gps_sms", "gps")) && prefs.getBoolean("gps_enable", false) && GooglePlayServicesUtil.isGooglePlayServicesAvailable(context) == ConnectionResult.SUCCESS) { // GPS
-				mGaTracker.sendEvent("received_sms", "received_sms", "GPS", null);
+				mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "GPS", null).build());
 				
 				mGoogleApiClient = new GoogleApiClient.Builder(context)
 					.addConnectionCallbacks(this)
@@ -124,7 +129,6 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 					.build();
 				mGoogleApiClient.connect();
             }
-			GAServiceManager.getInstance().dispatch(); // commit les données vers GA
         }
 	}
 	

@@ -1,4 +1,4 @@
-package eu.romainpellerin.remotecontrolviasms;
+package eu.romainpellerin.remotecontrolviasms.activities;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -19,6 +19,11 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 
 import com.google.analytics.tracking.android.EasyTracker;
+
+import eu.romainpellerin.remotecontrolviasms.CustomArrayAdapter;
+import eu.romainpellerin.remotecontrolviasms.MyPreferenceFragment;
+import eu.romainpellerin.remotecontrolviasms.PowerButtonService;
+import eu.romainpellerin.remotecontrolviasms.R;
 
 public class MainActivity extends Activity {
 
@@ -162,7 +167,7 @@ public class MainActivity extends Activity {
     
     /* Google Analytics */
     @Override
-	public void onStart(){super.onStart();EasyTracker.getInstance().activityStart(this);}
+	public void onStart(){super.onStart();EasyTracker.getInstance(this).activityStart(this);}
     @Override
-	public void onStop(){super.onStart();EasyTracker.getInstance().activityStart(this);}
+	public void onStop(){super.onStart();EasyTracker.getInstance(this).activityStart(this);}
 }

@@ -12,6 +12,7 @@
     
     <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
     	<item name="android:background">@color/bar</item>
+    	<item name="android:actionModeBackground">@color/black</item>
 	</style>
 	
     <style name="CancelAl" parent="@android:style/Theme.Translucent.NoTitleBar">

@@ -1,4 +1,4 @@
-package eu.romainpellerin.remotecontrolviasms;
+package eu.romainpellerin.remotecontrolviasms.broadcastreceivers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,6 +9,7 @@ import android.preference.PreferenceManager;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.widget.Toast;
+import eu.romainpellerin.remotecontrolviasms.R;
 
 public class PowerButtonReceiver extends BroadcastReceiver {
 	
@@ -21,10 +22,10 @@ public class PowerButtonReceiver extends BroadcastReceiver {
         
 		Log.e("POWER BUTTON", "Power button is pressed.");
 		
-		if ((System.currentTimeMillis() - 1500) <= lastPress) {
+		if ((System.currentTimeMillis() - 1000) <= lastPress) {
 			lastPress = System.currentTimeMillis();
 			counter++;
-			if (counter >= 3) {
+			if (counter >= 4) {
 				SmsManager manager = SmsManager.getDefault();
 				final String msg = prefs.getString("emergency_sms", "EMERGENCY!");
 				final String recipient = prefs.getString("emergency_recipient","");

@@ -1,11 +1,13 @@
-package eu.romainpellerin.remotecontrolviasms;
+package eu.romainpellerin.remotecontrolviasms.activities;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import eu.romainpellerin.remotecontrolviasms.R;
+import eu.romainpellerin.remotecontrolviasms.broadcastreceivers.SmsReceiver;
 
 public class CancelAlarm extends Activity {
 

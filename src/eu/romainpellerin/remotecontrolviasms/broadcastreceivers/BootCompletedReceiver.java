@@ -1,5 +1,6 @@
-package eu.romainpellerin.remotecontrolviasms;
+package eu.romainpellerin.remotecontrolviasms.broadcastreceivers;
 
+import eu.romainpellerin.remotecontrolviasms.PowerButtonService;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
