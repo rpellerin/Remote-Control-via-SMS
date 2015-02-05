@@ -16,7 +16,7 @@
 	<string name="notAPhone">Votre appareil ne contient pas de carte SIM.</string>
 	<string name="home">Bienvenue dans \"Contrôle à distance via SMS\". Cette application vous permet d\'activer
 	    à distance la 2G/3G (versions d\'Android inférieures à 5.0)et le wifi, d\'émettre un bruit d\'alarme ou de recevoir la position GPS de votre téléphone par SMS. Vous pouvez faire
-	    cela à la reception d\'un SMS spécifique que vous déterminerez. Les paramètres sont accessibles via le menu à gauche.</string>
+	    cela à la reception d\'un SMS spécifique que vous déterminerez. Vous pouvez aussi envoyer un SMS en cas d\'urgence à certaines personnes. Les paramètres sont accessibles via le menu à gauche.</string>
 	<string name="noplayservices">La version de vos services Google Play ne vous permet pas d\'utiliser cette fonction. Merci de la mettre à jour.</string>
 	<string name="alarmstop">ARRETER L\'ALARME</string>
 	<string name="stop">STOP</string>

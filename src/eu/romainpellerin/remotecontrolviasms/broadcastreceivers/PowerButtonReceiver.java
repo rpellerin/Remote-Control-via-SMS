@@ -7,7 +7,6 @@ import android.content.SharedPreferences;
 import android.os.Vibrator;
 import android.preference.PreferenceManager;
 import android.telephony.SmsManager;
-import android.util.Log;
 import android.widget.Toast;
 import eu.romainpellerin.remotecontrolviasms.R;
 
@@ -20,12 +19,13 @@ public class PowerButtonReceiver extends BroadcastReceiver {
 	public void onReceive(Context context, Intent intent) {
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         
-		Log.e("POWER BUTTON", "Power button is pressed.");
+		//Log.e("POWER BUTTON", "Power button is pressed.");
 		
 		if ((System.currentTimeMillis() - 1000) <= lastPress) {
 			lastPress = System.currentTimeMillis();
 			counter++;
-			if (counter >= 4) {
+			if (counter >= 4 && prefs.getBoolean("emergency_enable", false)) {
+				
 				SmsManager manager = SmsManager.getDefault();
 				final String msg = prefs.getString("emergency_sms", "EMERGENCY!");
 				final String recipient = prefs.getString("emergency_recipient","");
@@ -34,9 +34,9 @@ public class PowerButtonReceiver extends BroadcastReceiver {
 						manager.sendTextMessage(num.trim(), null, msg, null, null);
 					}
 					Toast.makeText(context, R.string.sms_sent, Toast.LENGTH_LONG).show();
-					 Vibrator v = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
-					 v.vibrate(500);
-					 Log.e("EMERGENCY SMS", "SMS SENT");
+					Vibrator v = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+					v.vibrate(500);
+					//Log.e("EMERGENCY SMS", "SMS SENT");
 				}
 				counter = 0;
 			}
