@@ -38,4 +38,8 @@
     <string name="data_root">Mobile data as root</string>
     <string name="try_root_data">Enable mobile data as root in Rooted</string>
     <string name="enable_data">Enable mobile data in Data</string>
+    <string name="sms_gps_get">SMS to receive GPS coordinates</string>
+    <string name="no_gps_data">GPS data is not available</string>
+    <string name="no_gps_permission">No permission for GPS data</string>
 </resources>
+

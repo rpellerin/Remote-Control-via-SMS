@@ -1,5 +1,6 @@
 package eu.romainpellerin.remotecontrolviasms;
 
+import android.Manifest;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.content.pm.PackageManager;
@@ -7,6 +8,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
+import android.support.v4.app.ActivityCompat;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -65,6 +67,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
         	PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_gps, true);
         	if (!prefs.getBoolean("gps_enable", true)) {
         		getPreferenceScreen().findPreference("gps_sms").setEnabled(false);
+                getPreferenceScreen().findPreference("gps_sms_get").setEnabled(false);
         	}
         	int result = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getActivity());
     		if (result != ConnectionResult.SUCCESS) { // NO GOOGLE PLAY SERVICES
@@ -122,6 +125,18 @@ public class MyPreferenceFragment extends PreferenceFragment {
 				else if(key.equals("gps_enable")) {
 					boolean bool = sharedPreferences.getBoolean(key, false);
 					getPreferenceScreen().findPreference("gps_sms").setEnabled(bool);
+                    getPreferenceScreen().findPreference("gps_sms_get").setEnabled(bool);
+
+                    // Check permissions
+					if (bool && Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+					    if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED &&
+                                ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                            ActivityCompat.requestPermissions(getActivity(),
+                                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION}, PERMISSIONS_REQUEST_CODE);
+                        } else {
+                            getPreferenceScreen().findPreference("gps_sms_get").setEnabled(false);
+                        }
+                    }
 				}
 				else if(key.equals("emergency_enable")) {
 					boolean bool = sharedPreferences.getBoolean(key, false);
@@ -142,7 +157,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
 					if (bool) {
 					    RootUtils.requestRootPrivileges();
                     }
-				} else if(key.equals("enable_root_data")) {                 // Remind user to enable mobile data in Data preference page
+				} else if(key.equals("enable_root_data")) {// Reminds user to enable mobile data in Data preference page
 				    if (sharedPreferences.getBoolean(key, false) &&
                             !sharedPreferences.getBoolean("data_enable", false)) {
                         Toast.makeText(getActivity(), R.string.enable_data, Toast.LENGTH_LONG).show();
@@ -173,4 +188,5 @@ public class MyPreferenceFragment extends PreferenceFragment {
 	    getPreferenceManager().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(listener_pref);
 	    super.onPause();
 	}
+
 }

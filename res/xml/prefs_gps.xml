@@ -16,5 +16,14 @@
             android:maxLength="10"
             android:summary="@string/max_char"
             android:title="@string/sms_to_enable" />
+
+        <EditTextPreference
+            android:defaultValue="gps get"
+            android:key="gps_sms_get"
+            android:inputType="textNoSuggestions"
+            android:maxLength="10"
+            android:summary="@string/max_char"
+            android:title="@string/sms_gps_get" />
+
     </PreferenceCategory>
 </PreferenceScreen>
