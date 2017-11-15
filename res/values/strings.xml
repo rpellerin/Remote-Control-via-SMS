@@ -17,7 +17,7 @@
     <string name="drawer_close">Close navigation drawer</string>
     <string name="notAPhone">Your device doesn\'t contain a SIM card.</string>
     <string name="home">Welcome to \"Remote control via SMS\". This app allows you to enable
-	    data (only for versions of Android below 5.0) and wifi settings remotly, to produce a loud beep, or to receive the current GPS location of your phone. That can be
+	    data (only for versions of Android below 5.0) and wifi settings remotely, to produce a loud beep, or to receive the current GPS location of your phone. That can be
 	    done on receiving specific SMS that you\'ll determine. You can also send a SMS to some people automatically, in case of emergency. All the settings are accessible via the menu on the left.</string>
     <string name="noplayservices">Your version of Google Play services isn\'t recent enough to use that feature. Please upgrade it.</string>
     <string name="alarmstop">STOP THE ALARM</string>
@@ -29,4 +29,13 @@
 	<string name="emergency_about">Press 4 times \'Power button\' in less than 4 seconds to send this message. You can add as many recipients as you want, separated with commas.</string>
 	<string name="sms_sent">Emergency SMS sent</string>
 	<string name="lolipop_nodata">Data can\'t be activated remotely since Android 5.0</string>
+    <string name="root_title">Root privileges</string>
+    <string name="gps_root">GPS as root</string>
+    <string name="gsp_root_summary_on">Using root privileges to turn on GPS</string>
+    <string name="gps_root_summary_off">Not using root privileges to turn on GPS</string>
+    <string name="data_root_summary_off">Not using root privileges to turn on mobile data</string>
+    <string name="data_root_summary_on">Using root privileges to turn on mobile data</string>
+    <string name="data_root">Mobile data as root</string>
+    <string name="try_root_data">Enable mobile data as root in Rooted</string>
+    <string name="enable_data">Enable mobile data in Data</string>
 </resources>

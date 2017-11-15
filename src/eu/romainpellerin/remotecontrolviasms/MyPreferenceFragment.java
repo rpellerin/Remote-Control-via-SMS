@@ -2,6 +2,7 @@ package eu.romainpellerin.remotecontrolviasms;
 
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
+import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
@@ -14,6 +15,7 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 public class MyPreferenceFragment extends PreferenceFragment {
     public static final String ARG_PAGE = "page_number";
     private SharedPreferences.OnSharedPreferenceChangeListener listener_pref;
+    public static final int PERMISSIONS_REQUEST_CODE = 4587515;                 // For identifying permission requests
 
     public MyPreferenceFragment() {
         // Empty constructor required for fragment subclasses
@@ -33,13 +35,17 @@ public class MyPreferenceFragment extends PreferenceFragment {
         	}
         	break;
         case 2: /* data */
-        	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)
-        		prefs.edit().putBoolean("data_enable", false).commit();
+            boolean useRootForData = prefs.getBoolean("enable_root_data", false);
+        	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !useRootForData) {
+        		prefs.edit().putBoolean("data_enable", false).apply();
+            }
         	addPreferencesFromResource(R.xml.prefs_data);
         	PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_data, true);
-        	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+        	if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && !useRootForData) {
         		getPreferenceScreen().findPreference("data_enable").setEnabled(false);
-        		Toast.makeText(getActivity(),R.string.lolipop_nodata, Toast.LENGTH_LONG).show();
+        		Toast.makeText(getActivity(),
+                        RootUtils.isRooted() ? R.string.try_root_data : R.string.lolipop_nodata,
+                        Toast.LENGTH_LONG).show();
         	}
         	if (!prefs.getBoolean("data_enable", true)) {
         		getPreferenceScreen().findPreference("data_sms").setEnabled(false);
@@ -51,6 +57,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
         	if (!prefs.getBoolean("beep_enable", true)) {
         		getPreferenceScreen().findPreference("beep_sms").setEnabled(false);
 				getPreferenceScreen().findPreference("beep_play_again").setEnabled(false);
+                getPreferenceScreen().findPreference("volume").setEnabled(false);
         	}
         	break;
         case 4: /* gps */
@@ -84,6 +91,14 @@ public class MyPreferenceFragment extends PreferenceFragment {
         	getPreferenceScreen().findPreference("emergency_sms").setSummary(prefs.getString("emergency_sms", "EMERGENCY!"));
         	getPreferenceScreen().findPreference("emergency_recipient").setSummary(prefs.getString("emergency_recipient", "123"));
         	break;
+		case 6: /* rooted */
+			addPreferencesFromResource(R.xml.prefs_rooted);
+			PreferenceManager.setDefaultValues(getActivity(), R.xml.prefs_rooted, true);
+			if (!prefs.getBoolean("enable_root", true)) {
+                getPreferenceScreen().findPreference("test_root").setEnabled(false);
+				getPreferenceScreen().findPreference("enable_root_gps").setEnabled(false);
+				getPreferenceScreen().findPreference("enable_root_data").setEnabled(false);
+			}
         default:
         	break;
         }
@@ -102,6 +117,7 @@ public class MyPreferenceFragment extends PreferenceFragment {
 					boolean bool = sharedPreferences.getBoolean(key, true);
 					getPreferenceScreen().findPreference("beep_sms").setEnabled(bool);
 					getPreferenceScreen().findPreference("beep_play_again").setEnabled(bool);
+					getPreferenceScreen().findPreference("volume").setEnabled(bool);
 				}
 				else if(key.equals("gps_enable")) {
 					boolean bool = sharedPreferences.getBoolean(key, false);
@@ -116,8 +132,34 @@ public class MyPreferenceFragment extends PreferenceFragment {
 					getPreferenceScreen().findPreference("emergency_sms").setSummary(sharedPreferences.getString("emergency_sms", "EMERGENCY!"));
 		        	getPreferenceScreen().findPreference("emergency_recipient").setSummary(sharedPreferences.getString("emergency_recipient", "123"));
 				}
+				else if(key.equals("enable_root")) {
+					boolean bool = sharedPreferences.getBoolean(key, false);
+                    getPreferenceScreen().findPreference("test_root").setEnabled(bool);
+					getPreferenceScreen().findPreference("enable_root_gps").setEnabled(bool);
+					getPreferenceScreen().findPreference("enable_root_data").setEnabled(bool);
+
+					// Request root privileges
+					if (bool) {
+					    RootUtils.requestRootPrivileges();
+                    }
+				} else if(key.equals("enable_root_data")) {                 // Remind user to enable mobile data in Data preference page
+				    if (sharedPreferences.getBoolean(key, false) &&
+                            !sharedPreferences.getBoolean("data_enable", false)) {
+                        Toast.makeText(getActivity(), R.string.enable_data, Toast.LENGTH_LONG).show();
+                    }
+                }
 			}
         };
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        // If permissions were granted
+        if (requestCode == PERMISSIONS_REQUEST_CODE && (grantResults.length > 0) && (grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
+            getPreferenceScreen().findPreference("gps_sms_get").setEnabled(true);
+        } else {
+            getPreferenceScreen().findPreference("gps_sms_get").setEnabled(false);
+        }
     }
 	
 	@Override
@@ -131,5 +173,4 @@ public class MyPreferenceFragment extends PreferenceFragment {
 	    getPreferenceManager().getSharedPreferences().unregisterOnSharedPreferenceChangeListener(listener_pref);
 	    super.onPause();
 	}
-	
 }

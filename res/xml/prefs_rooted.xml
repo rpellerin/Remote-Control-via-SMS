@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="root_category">
+
+	<PreferenceCategory android:title="@string/root_title" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="enable_root"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:title="@string/pref_enable"
+            android:summaryOn="@string/pref_enabled"
+            android:summaryOff="@string/pref_disabled"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/gps_root">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="enable_root_gps"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:title="@string/pref_enable"
+            android:summaryOn="@string/gsp_root_summary_on"
+            android:summaryOff="@string/gps_root_summary_off"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/data_root">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="enable_root_data"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:title="@string/pref_enable"
+            android:summaryOn="@string/data_root_summary_on"
+            android:summaryOff="@string/data_root_summary_off"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
