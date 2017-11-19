@@ -8,11 +8,13 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.List;
+
 public class CustomArrayAdapter extends ArrayAdapter<String> {
 	private final Context context;
-	private final String[] values;
+	private final List<String> values;
  
-	public CustomArrayAdapter(Context context, String[] values) {
+	public CustomArrayAdapter(Context context, List<String> values) {
 		super(context, R.layout.item_menu, values);
 		this.context = context;
 		this.values = values;
@@ -27,7 +29,7 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
 		}
 		TextView textView = (TextView) rowView.findViewById(R.id.label);
 		ImageView imageView = (ImageView) rowView.findViewById(R.id.logo);
-		textView.setText(values[position]);
+		textView.setText(values.get(position));
  
 		switch (position) {
 		case 0:
@@ -47,6 +49,9 @@ public class CustomArrayAdapter extends ArrayAdapter<String> {
 			break;
 		case 5:
 			imageView.setImageResource(R.drawable.emergency);
+			break;
+		case 6:
+			imageView.setImageResource(R.drawable.root);
 			break;
 		}
  

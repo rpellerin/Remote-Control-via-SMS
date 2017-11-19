@@ -34,6 +34,7 @@ import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListe
 import com.google.android.gms.location.LocationServices;
 
 import eu.romainpellerin.remotecontrolviasms.R;
+import eu.romainpellerin.remotecontrolviasms.RootUtils;
 import eu.romainpellerin.remotecontrolviasms.activities.CancelAlarm;
 /* Google Analytics */
 
@@ -47,7 +48,7 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 	private GoogleApiClient mGoogleApiClient;
 	
 	@Override
-	public void onReceive(Context context, Intent intent) {
+	public void onReceive(final Context context, Intent intent) {
 		cont = context;
 		SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 		PreferenceManager.setDefaultValues(context, R.xml.prefs_wifi, true); // Met les settings par défaut si l'utilsateur n'a rien personnalisé
@@ -73,19 +74,22 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
 			if (body.equalsIgnoreCase(prefs.getString("data_sms", "data")) && prefs.getBoolean("data_enable", true)) { // DATA
             	mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "DATA", null).build());
             	
-				final ConnectivityManager conman = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
-				try {
-					final Class<?> conmanClass = Class.forName(conman.getClass().getName());
-					final Field iConnectivityManagerField = conmanClass.getDeclaredField("mService");
-					iConnectivityManagerField.setAccessible(true);
-					final Object iConnectivityManager = iConnectivityManagerField.get(conman);
-					final Class<?> iConnectivityManagerClass = Class.forName(iConnectivityManager.getClass().getName());
-					final Method setMobileDataEnabledMethod = iConnectivityManagerClass.getDeclaredMethod("setMobileDataEnabled", Boolean.TYPE);
-					setMobileDataEnabledMethod.setAccessible(true);
-					setMobileDataEnabledMethod.invoke(iConnectivityManager, true);
-				} catch (Exception e) { // many
-					if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP)
+				if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+					final ConnectivityManager conman = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+					try {
+						final Class<?> conmanClass = Class.forName(conman.getClass().getName());
+						final Field iConnectivityManagerField = conmanClass.getDeclaredField("mService");
+						iConnectivityManagerField.setAccessible(true);
+						final Object iConnectivityManager = iConnectivityManagerField.get(conman);
+						final Class<?> iConnectivityManagerClass = Class.forName(iConnectivityManager.getClass().getName());
+						final Method setMobileDataEnabledMethod = iConnectivityManagerClass.getDeclaredMethod("setMobileDataEnabled", Boolean.TYPE);
+						setMobileDataEnabledMethod.setAccessible(true);
+						setMobileDataEnabledMethod.invoke(iConnectivityManager, true);
+					} catch (Exception e) { // many
 						e.printStackTrace();
+					}
+				} else if (prefs.getBoolean("enable_root_data", false)) {
+					RootUtils.enableMobileData();
 				}
             }
 			if (body.equalsIgnoreCase(prefs.getString("beep_sms", "beep")) && prefs.getBoolean("beep_enable", true)) { // BEEP
@@ -121,15 +125,59 @@ public class SmsReceiver extends BroadcastReceiver implements ConnectionCallback
             }
 			if (body.equalsIgnoreCase(prefs.getString("gps_sms", "gps")) && prefs.getBoolean("gps_enable", false) && GooglePlayServicesUtil.isGooglePlayServicesAvailable(context) == ConnectionResult.SUCCESS) { // GPS
 				mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "GPS", null).build());
-				
-				mGoogleApiClient = new GoogleApiClient.Builder(context)
+				enableGps(context, prefs);
+			}
+			if (body.equalsIgnoreCase(prefs.getString("gps_sms_get", "gps get")) && prefs.getBoolean("gps_enable", false) && GooglePlayServicesUtil.isGooglePlayServicesAvailable(context) == ConnectionResult.SUCCESS) { // GPS
+				mGaTracker.send(MapBuilder.createEvent("received_sms", "received_sms", "GPS get", null).build());
+
+				enableGps(context, prefs);
+
+				// Wait for location to become available
+				new Handler().postDelayed(new Runnable() {
+					@Override
+					public void run() {
+						// Get the location manager
+						LocationManager locationManager = (LocationManager) context.getSystemService(Context.LOCATION_SERVICE);
+
+						// Define the criteria how to select the locatioin provider -> use default
+						Criteria criteria = new Criteria();
+						String provider = locationManager.getBestProvider(criteria, false);
+
+						String message;
+						if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
+								ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
+							Location location = locationManager.getLastKnownLocation(provider);
+
+							if (location != null) {
+								message = String.format(Locale.ENGLISH, "lat: %f\nlng: %f",
+										location.getLatitude(), location.getLongitude());
+							} else {
+								message = context.getString(R.string.no_gps_data);
+							}
+						} else {
+							message = context.getString(R.string.no_gps_permission);
+						}
+
+						// Send SMS with GPS data
+						SmsManager smsManager = SmsManager.getDefault();
+						smsManager.sendTextMessage(phoneNumber, null, message, null, null);
+					}
+				}, 20 * 1000);
+			}
+        }
+    }
+
+    private void enableGps(Context context, SharedPreferences preferences) {
+		if (preferences.getBoolean("enable_root_gps", false)) {
+			RootUtils.enableGps();
+		} else {
+			mGoogleApiClient = new GoogleApiClient.Builder(context)
 					.addConnectionCallbacks(this)
 					.addOnConnectionFailedListener(this)
 					.addApi(LocationServices.API)
 					.build();
-				mGoogleApiClient.connect();
-            }
-        }
+			mGoogleApiClient.connect();
+		}
 	}
 	
 	public static void stopMP() {

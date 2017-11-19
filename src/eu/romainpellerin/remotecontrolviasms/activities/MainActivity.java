@@ -1,10 +1,13 @@
 package eu.romainpellerin.remotecontrolviasms.activities;
 
+import android.Manifest;
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -17,22 +20,29 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.analytics.tracking.android.EasyTracker;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import eu.romainpellerin.remotecontrolviasms.CustomArrayAdapter;
 import eu.romainpellerin.remotecontrolviasms.MyPreferenceFragment;
 import eu.romainpellerin.remotecontrolviasms.PowerButtonService;
 import eu.romainpellerin.remotecontrolviasms.R;
+import eu.romainpellerin.remotecontrolviasms.RootUtils;
 
 public class MainActivity extends Activity {
 
-	private String[] menuDrawer; // va chercher les strings dans values/strings à afficher dans le menu
+    private ArrayList<String> menuDrawer; // va chercher les strings dans values/strings à afficher dans le menu
 	private ListView menuDrawerView; // la listview du drawer
 	private DrawerLayout mDrawerLayout; // la view root, le drawer
     private ActionBarDrawerToggle mDrawerToggle;
 	private static String titleFrag;
 	private static boolean drawOpen = false;
+    private static final int PERMISSIONS_REQUEST_CODE = 1565478766;     // For identifying permission requests
     
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
@@ -59,8 +69,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         // Le menu
-        menuDrawer = getResources().getStringArray(R.array.menu_drawer);
-        menuDrawerView = (ListView) findViewById(R.id.left_drawer);
+        List<String> tmp_list = Arrays.asList(getResources().getStringArray(R.array.menu_drawer));
+        menuDrawer = new ArrayList<>(tmp_list);                                   // to make it resizable
+        menuDrawerView = findViewById(R.id.left_drawer);
 
         // Set the adapter for the list view
         //menuDrawerView.setAdapter(new ArrayAdapter<String>(this,R.layout.drawer_list_item, menuDrawer));
@@ -108,6 +119,19 @@ public class MainActivity extends Activity {
         	setTitle(titleFrag);
         }
         startService(new Intent(this, PowerButtonService.class));
+
+        // If device is rooted add new menu item
+        if (RootUtils.isRooted()) {
+            menuDrawer.add("Rooted");
+            ((CustomArrayAdapter)menuDrawerView.getAdapter()).notifyDataSetChanged();
+        }
+
+        // For newer versions check SMS permissions
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            if (checkSelfPermission(Manifest.permission.RECEIVE_SMS) != PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{Manifest.permission.RECEIVE_SMS}, PERMISSIONS_REQUEST_CODE);
+            }
+        }
     }
 
     @Override
@@ -148,7 +172,7 @@ public class MainActivity extends Activity {
 
         // Highlight the selected item, update the title, and close the drawer
         menuDrawerView.setItemChecked(position, true);
-        setTitle(titleFrag = menuDrawer[position]);
+        setTitle(titleFrag = menuDrawer.get(position));
         mDrawerLayout.closeDrawer(menuDrawerView);
     }
 
@@ -163,11 +187,26 @@ public class MainActivity extends Activity {
     public void setTitle(CharSequence title) {
         getActionBar().setTitle(title);
     }
-    
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        // SMS permission result
+        if (requestCode == PERMISSIONS_REQUEST_CODE && (grantResults.length > 0) && (grantResults[0] != PackageManager.PERMISSION_GRANTED)) {
+            Toast.makeText(this, "SMS permissions denied", Toast.LENGTH_LONG).show();
+        }
+
+        // Call onRequestPermissionsResult of Preference Fragment
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            getFragmentManager().findFragmentById(R.id.content_frame)
+                    .onRequestPermissionsResult(requestCode, permissions, grantResults);
+        }
+    }
     
     /* Google Analytics */
     @Override
 	public void onStart(){super.onStart();EasyTracker.getInstance(this).activityStart(this);}
     @Override
-	public void onStop(){super.onStart();EasyTracker.getInstance(this).activityStart(this);}
+	public void onStop(){super.onStop();EasyTracker.getInstance(this).activityStart(this);}
 }
