@@ -1,0 +1,21 @@
+<resources>
+    <color name="white_opaque">#e9e9e9</color>
+    <color name="bar">#96c13d</color>
+    <color name="black">#88000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    
+    
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/white_opaque</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+    
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    	<item name="android:background">@color/bar</item>
+    	<item name="android:actionModeBackground">@color/black</item>
+	</style>
+	
+    <style name="CancelAl" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>
