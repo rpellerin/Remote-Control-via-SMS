@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/aljosa/Projects/Remote-Control-via-SMS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+#Wed Nov 22 19:41:35 CET 2017
+base.0=/home/aljosa/Projects/Remote-Control-via-SMS/app/build/intermediates/transforms/dexMerger/debug/10
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/aljosa/Projects/Remote-Control-via-SMS/app/build/intermediates/transforms/dexMerger/debug/10

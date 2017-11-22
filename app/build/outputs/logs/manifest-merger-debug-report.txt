@@ -1,0 +1,1040 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+MERGED from [com.google.android.gms:play-services:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-11.6.0.aar/ec3f365ccf942902c8fb3b155d43c155/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.6.0.aar/49b1b3358503c75b1c212fefa0b92ec0/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:16:1-33:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.6.0.aar/f4d278aa50f86b5af4e09121d59d5c89/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.6.0.aar/8b8659c88e7681d28686398c9ab391e3/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/37618d6e591ce912510455f2393c73b9/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/dc43543192bd05a63ac47aa5d8730f4a/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/50bb7e202e50e6a84105d61e3428a731/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-config:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-11.6.0.aar/fcdfaacda82f73dd826b54b83705890a/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-awareness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.6.0.aar/6b822783537184ae50ea28a1d6f37501/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-11.6.0.aar/ec6b50a0d1b800b79c133dcd78b6e539/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.6.0.aar/e2bd4ab16cab73141a2f100c6b010a00/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fido:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.6.0.aar/44ebe2379a6e78407ea661982e7e1473/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/e16c0d2ee586b1dba21b37b3a9073cb9/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.6.0.aar/5cc158ac8c1cd2231f5786b7e393b752/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.6.0.aar/2370c65edb332a2b5ba061728b26ffbc/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.6.0.aar/bfc23f6383e9cb78f5571210ea5808d8/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-wallet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.6.0.aar/f830ea630210b3fba187fea8d853a3cc/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.6.0.aar/e12e29f55092c23bd381f653f59ff32b/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.6.0.aar/558c1ad395e067ebb8025c7ec25c0c99/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c50a93a35accf4daf9acca4b451a7f9a/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-11.6.0.aar/37b9c13a0e950749f549ef038152ea23/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.6.0.aar/6b5c9c9746330b49c5a70e8805ac23e0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.6.0.aar/d754af80d7500663df7cd47e1cbce7e3/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.6.0.aar/6e81db95942d2fb3af3a18c722b3d892/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.6.0.aar/a69b38ac193fae38380f0c35b9b9ce2f/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.6.0.aar/69c37171a0c63c4baff90eb03d4dd274/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.6.0.aar/a3289864de4019b086caca2fa1b5ac38/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.firebase:firebase-database:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.0.aar/0d9cdeafdf53935a7d83803cc41b4011/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.0.aar/ea9dc48d30667a676ba09694170c98d3/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:16:1-47:12
+MERGED from [com.google.firebase:firebase-storage:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.6.0.aar/7188283c81e8d1098730fee3c07db1ec/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.6.0.aar/ddda92936410ebc8835a49022bd4ab2f/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.6.0.aar/d0b5d52c8370899f478bc578eba20dd2/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/5191828eebbe013be401a9da0ec0e049/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/8b447ac86434a1367fc3e250ca33ce12/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/c821fcf9da19ac2357cf68d0314c41d6/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.6.0.aar/bd73997ab9e1084a75efe1dc5c1ccd79/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.6.0.aar/db590854a42c8f259a440bdc0566793c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.6.0.aar/872b1160dccf631f50a55515f50bc6e8/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.6.0.aar/3a89f131d79fd91a81401d877bfa8c8a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-license-11.6.0.aar/3d0577b73a3b1760f4e46474990ed876/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/424e886c09b4bd3d91fd3079b13ebc7c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/70ed768239e739c9cf54065ac8bda178/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/4d40eef9df016ceb2db0e102f701dffe/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/f79a2c43f3fc6a7163730a5cd3b06589/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/6c3694cc2227a91c51b91f43e347feeb/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/42e68e20d35767d216f77f34a48a5d56/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-config-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-license-11.6.0.aar/0a1164a491d1e7ef2f256709683fe23c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-awareness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-license-11.6.0.aar/4ab7706b6f863f6c4b510b0c59ea1091/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-crash-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-11.6.0.aar/d35b80582d7c7bf40706709424988daa/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-drive-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-license-11.6.0.aar/d2df8cb6b3aebda1bda39572444aee74/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fido-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-license-11.6.0.aar/d24b323b280546d53aa9aecb6dc531d2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/04af3f58b9be0c852587a589334d24a7/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/7fadc531e282f5c5f2e10a9f6902df6c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/120266ef2920f3847fc9818c0c677c34/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-license-11.6.0.aar/bf1429d8407d2fa89bd9a6dfcad59b06/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/d407844b1d446f2078e2cf1d32935069/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/b065965a8d6d893f6d06bd65a9587676/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/b6c86a28855abf780dc01a0d91649d2c/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/0387ec9069d806c8109d29d70126b643/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/f4a49f3f1acc0b588cd71eeabf17cb03/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-fitness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-license-11.6.0.aar/2e7c55452b6ea0f130923c4e7615d337/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-games-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-license-11.6.0.aar/02e8eb90e1ab8305cd514905441ae2a1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.6.0.aar/0d3e6b2e3027028cc836a09b0c8968b3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/c6c50fec22471ec6790177551eab77e3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-appindexing-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.6.0.aar/7a7f9bd59187c6c360465358d17e0b16/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-identity-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.6.0.aar/2e634d61f87abc955bc35e2d50061806/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/edad2756d33c539a395d73d66e1ba01b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-license-11.6.0.aar/3116f9744064222b866a09b1944f314b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/875c68228cec32f8f8aedbc73fff0ff1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/98df8d59bfe538341b7d55c900cd29bb/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/02074cf6712742b4c2c6121e4a900382/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/51b6fd98d75c4486ed57370194735d8b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-nearby-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-license-11.6.0.aar/aa8bc77cff99ced72c38293a7b5803a3/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-license-11.6.0.aar/e82ce5dbcd477778accfce3d831030ea/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.6.0.aar/7080285effe0b76e3776be42ac6656c8/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-plus-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-license-11.6.0.aar/586be0a06764e2b86364dfa23d6ba0ff/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-license-11.6.0.aar/365f698fc6b1c826fb9b73d4a792acab/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-license-11.6.0.aar/a8aaa82056d610f40f6d69103848f3fa/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-license-11.6.0.aar/18b1f4d3302a3661cfbceefd13e5813b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.6.0.aar/ce2f8877d88c2dbf578a0beaee0610a5/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/27f2a44af4edda15b37bf2d5366cec5a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.6.0.aar/5188cd02e4976fd4c91b70cc43e76f78/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.6.0.aar/8f7ba493958b6de818771ab608fdafa1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wallet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.6.0.aar/954591c08c5c93522a1a1130d1a98f9d/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-wearable-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.6.0.aar/35e1ce9f6f87314f8764ba6cbda10bdd/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:palette-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0f168a184f0499592b928dbd10e9b24c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/e9698807482a00d7d033b97f668914b0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/60b1152a21f7657944da5f7a36c567cc/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/78e1a967114c2126e9ad32e86e7a0564/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/e11483bb6f9e83a74bdde25d1decefb4/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/ee445dc4137092dc954dbef5557fc787/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/5d6c76e18589e77c764bb37691a247f6/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/4431c5f6f7a23383e6e7ccabee3540d5/AndroidManifest.xml:17:1-27:12
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:3:5-52
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:7:22-67
+uses-permission#android.permission.READ_SMS
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:9:22-63
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:10:22-64
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_SUPERUSER
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:20:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:20:22-76
+application
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:22:5-72:19
+MERGED from [com.google.android.gms:play-services:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-11.6.0.aar/ec3f365ccf942902c8fb3b155d43c155/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-11.6.0.aar/ec3f365ccf942902c8fb3b155d43c155/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:26:5-31:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.6.0.aar/8b8659c88e7681d28686398c9ab391e3/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.6.0.aar/8b8659c88e7681d28686398c9ab391e3/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/50bb7e202e50e6a84105d61e3428a731/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/50bb7e202e50e6a84105d61e3428a731/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-11.6.0.aar/fcdfaacda82f73dd826b54b83705890a/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-11.6.0.aar/fcdfaacda82f73dd826b54b83705890a/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.6.0.aar/6b822783537184ae50ea28a1d6f37501/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.6.0.aar/6b822783537184ae50ea28a1d6f37501/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-11.6.0.aar/ec6b50a0d1b800b79c133dcd78b6e539/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-11.6.0.aar/ec6b50a0d1b800b79c133dcd78b6e539/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.6.0.aar/e2bd4ab16cab73141a2f100c6b010a00/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.6.0.aar/e2bd4ab16cab73141a2f100c6b010a00/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fido:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.6.0.aar/44ebe2379a6e78407ea661982e7e1473/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fido:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.6.0.aar/44ebe2379a6e78407ea661982e7e1473/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/e16c0d2ee586b1dba21b37b3a9073cb9/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/e16c0d2ee586b1dba21b37b3a9073cb9/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.6.0.aar/5cc158ac8c1cd2231f5786b7e393b752/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.6.0.aar/5cc158ac8c1cd2231f5786b7e393b752/AndroidManifest.xml:5:3-17
+MERGED from [com.google.android.gms:play-services-fitness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.6.0.aar/2370c65edb332a2b5ba061728b26ffbc/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.6.0.aar/2370c65edb332a2b5ba061728b26ffbc/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.6.0.aar/bfc23f6383e9cb78f5571210ea5808d8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.6.0.aar/bfc23f6383e9cb78f5571210ea5808d8/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.6.0.aar/e12e29f55092c23bd381f653f59ff32b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.6.0.aar/e12e29f55092c23bd381f653f59ff32b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c50a93a35accf4daf9acca4b451a7f9a/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c50a93a35accf4daf9acca4b451a7f9a/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-11.6.0.aar/37b9c13a0e950749f549ef038152ea23/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-11.6.0.aar/37b9c13a0e950749f549ef038152ea23/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.6.0.aar/6b5c9c9746330b49c5a70e8805ac23e0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.6.0.aar/6b5c9c9746330b49c5a70e8805ac23e0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.6.0.aar/d754af80d7500663df7cd47e1cbce7e3/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.6.0.aar/d754af80d7500663df7cd47e1cbce7e3/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.6.0.aar/6e81db95942d2fb3af3a18c722b3d892/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.6.0.aar/6e81db95942d2fb3af3a18c722b3d892/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.6.0.aar/a69b38ac193fae38380f0c35b9b9ce2f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.6.0.aar/a69b38ac193fae38380f0c35b9b9ce2f/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.6.0.aar/69c37171a0c63c4baff90eb03d4dd274/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.6.0.aar/69c37171a0c63c4baff90eb03d4dd274/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.6.0.aar/a3289864de4019b086caca2fa1b5ac38/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.6.0.aar/a3289864de4019b086caca2fa1b5ac38/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:29:5-46:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.6.0.aar/d0b5d52c8370899f478bc578eba20dd2/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.6.0.aar/d0b5d52c8370899f478bc578eba20dd2/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/5191828eebbe013be401a9da0ec0e049/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/5191828eebbe013be401a9da0ec0e049/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/8b447ac86434a1367fc3e250ca33ce12/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/8b447ac86434a1367fc3e250ca33ce12/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/c821fcf9da19ac2357cf68d0314c41d6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/c821fcf9da19ac2357cf68d0314c41d6/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.6.0.aar/bd73997ab9e1084a75efe1dc5c1ccd79/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.6.0.aar/bd73997ab9e1084a75efe1dc5c1ccd79/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.6.0.aar/db590854a42c8f259a440bdc0566793c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.6.0.aar/db590854a42c8f259a440bdc0566793c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.6.0.aar/872b1160dccf631f50a55515f50bc6e8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.6.0.aar/872b1160dccf631f50a55515f50bc6e8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.6.0.aar/3a89f131d79fd91a81401d877bfa8c8a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.6.0.aar/3a89f131d79fd91a81401d877bfa8c8a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-license-11.6.0.aar/3d0577b73a3b1760f4e46474990ed876/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-license-11.6.0.aar/3d0577b73a3b1760f4e46474990ed876/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/424e886c09b4bd3d91fd3079b13ebc7c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/424e886c09b4bd3d91fd3079b13ebc7c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/70ed768239e739c9cf54065ac8bda178/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/70ed768239e739c9cf54065ac8bda178/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/4d40eef9df016ceb2db0e102f701dffe/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/4d40eef9df016ceb2db0e102f701dffe/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/f79a2c43f3fc6a7163730a5cd3b06589/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/f79a2c43f3fc6a7163730a5cd3b06589/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/6c3694cc2227a91c51b91f43e347feeb/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/6c3694cc2227a91c51b91f43e347feeb/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/42e68e20d35767d216f77f34a48a5d56/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/42e68e20d35767d216f77f34a48a5d56/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-config-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-license-11.6.0.aar/0a1164a491d1e7ef2f256709683fe23c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-config-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-license-11.6.0.aar/0a1164a491d1e7ef2f256709683fe23c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-license-11.6.0.aar/4ab7706b6f863f6c4b510b0c59ea1091/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-awareness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-license-11.6.0.aar/4ab7706b6f863f6c4b510b0c59ea1091/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-11.6.0.aar/d35b80582d7c7bf40706709424988daa/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-11.6.0.aar/d35b80582d7c7bf40706709424988daa/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-license-11.6.0.aar/d2df8cb6b3aebda1bda39572444aee74/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-license-11.6.0.aar/d2df8cb6b3aebda1bda39572444aee74/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-license-11.6.0.aar/d24b323b280546d53aa9aecb6dc531d2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fido-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-license-11.6.0.aar/d24b323b280546d53aa9aecb6dc531d2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/04af3f58b9be0c852587a589334d24a7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/04af3f58b9be0c852587a589334d24a7/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/7fadc531e282f5c5f2e10a9f6902df6c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/7fadc531e282f5c5f2e10a9f6902df6c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/120266ef2920f3847fc9818c0c677c34/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/120266ef2920f3847fc9818c0c677c34/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-license-11.6.0.aar/bf1429d8407d2fa89bd9a6dfcad59b06/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-license-11.6.0.aar/bf1429d8407d2fa89bd9a6dfcad59b06/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/d407844b1d446f2078e2cf1d32935069/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/d407844b1d446f2078e2cf1d32935069/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/b065965a8d6d893f6d06bd65a9587676/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/b065965a8d6d893f6d06bd65a9587676/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/b6c86a28855abf780dc01a0d91649d2c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/b6c86a28855abf780dc01a0d91649d2c/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/0387ec9069d806c8109d29d70126b643/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/0387ec9069d806c8109d29d70126b643/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/f4a49f3f1acc0b588cd71eeabf17cb03/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/f4a49f3f1acc0b588cd71eeabf17cb03/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-license-11.6.0.aar/2e7c55452b6ea0f130923c4e7615d337/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-fitness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-license-11.6.0.aar/2e7c55452b6ea0f130923c4e7615d337/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-license-11.6.0.aar/02e8eb90e1ab8305cd514905441ae2a1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-license-11.6.0.aar/02e8eb90e1ab8305cd514905441ae2a1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.6.0.aar/0d3e6b2e3027028cc836a09b0c8968b3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.6.0.aar/0d3e6b2e3027028cc836a09b0c8968b3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/c6c50fec22471ec6790177551eab77e3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/c6c50fec22471ec6790177551eab77e3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.6.0.aar/7a7f9bd59187c6c360465358d17e0b16/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-appindexing-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.6.0.aar/7a7f9bd59187c6c360465358d17e0b16/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.6.0.aar/2e634d61f87abc955bc35e2d50061806/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.6.0.aar/2e634d61f87abc955bc35e2d50061806/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/edad2756d33c539a395d73d66e1ba01b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/edad2756d33c539a395d73d66e1ba01b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-license-11.6.0.aar/3116f9744064222b866a09b1944f314b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-license-11.6.0.aar/3116f9744064222b866a09b1944f314b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/875c68228cec32f8f8aedbc73fff0ff1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/875c68228cec32f8f8aedbc73fff0ff1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/98df8d59bfe538341b7d55c900cd29bb/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/98df8d59bfe538341b7d55c900cd29bb/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/02074cf6712742b4c2c6121e4a900382/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/02074cf6712742b4c2c6121e4a900382/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/51b6fd98d75c4486ed57370194735d8b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/51b6fd98d75c4486ed57370194735d8b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-license-11.6.0.aar/aa8bc77cff99ced72c38293a7b5803a3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-license-11.6.0.aar/aa8bc77cff99ced72c38293a7b5803a3/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-license-11.6.0.aar/e82ce5dbcd477778accfce3d831030ea/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-panorama-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-license-11.6.0.aar/e82ce5dbcd477778accfce3d831030ea/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.6.0.aar/7080285effe0b76e3776be42ac6656c8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.6.0.aar/7080285effe0b76e3776be42ac6656c8/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-license-11.6.0.aar/586be0a06764e2b86364dfa23d6ba0ff/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-license-11.6.0.aar/586be0a06764e2b86364dfa23d6ba0ff/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-license-11.6.0.aar/365f698fc6b1c826fb9b73d4a792acab/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-license-11.6.0.aar/365f698fc6b1c826fb9b73d4a792acab/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-license-11.6.0.aar/a8aaa82056d610f40f6d69103848f3fa/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-license-11.6.0.aar/a8aaa82056d610f40f6d69103848f3fa/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-license-11.6.0.aar/18b1f4d3302a3661cfbceefd13e5813b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-license-11.6.0.aar/18b1f4d3302a3661cfbceefd13e5813b/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.6.0.aar/ce2f8877d88c2dbf578a0beaee0610a5/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.6.0.aar/ce2f8877d88c2dbf578a0beaee0610a5/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/27f2a44af4edda15b37bf2d5366cec5a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/27f2a44af4edda15b37bf2d5366cec5a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.6.0.aar/5188cd02e4976fd4c91b70cc43e76f78/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.6.0.aar/5188cd02e4976fd4c91b70cc43e76f78/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.6.0.aar/8f7ba493958b6de818771ab608fdafa1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.6.0.aar/8f7ba493958b6de818771ab608fdafa1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.6.0.aar/954591c08c5c93522a1a1130d1a98f9d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wallet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.6.0.aar/954591c08c5c93522a1a1130d1a98f9d/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.6.0.aar/35e1ce9f6f87314f8764ba6cbda10bdd/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.6.0.aar/35e1ce9f6f87314f8764ba6cbda10bdd/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0f168a184f0499592b928dbd10e9b24c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0f168a184f0499592b928dbd10e9b24c/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/e9698807482a00d7d033b97f668914b0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/e9698807482a00d7d033b97f668914b0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/60b1152a21f7657944da5f7a36c567cc/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/60b1152a21f7657944da5f7a36c567cc/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/78e1a967114c2126e9ad32e86e7a0564/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/78e1a967114c2126e9ad32e86e7a0564/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/e11483bb6f9e83a74bdde25d1decefb4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/e11483bb6f9e83a74bdde25d1decefb4/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/ee445dc4137092dc954dbef5557fc787/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/ee445dc4137092dc954dbef5557fc787/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/5d6c76e18589e77c764bb37691a247f6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/5d6c76e18589e77c764bb37691a247f6/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/4431c5f6f7a23383e6e7ccabee3540d5/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/4431c5f6f7a23383e6e7ccabee3540d5/AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:26:9-35
+	android:label
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:25:9-41
+	android:icon
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:24:9-45
+	android:allowBackup
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:23:9-35
+	android:theme
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:27:9-44
+meta-data#com.google.android.gms.version
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:28:9-30:69
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:30:13-66
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:29:13-58
+activity#eu.romainpellerin.remotecontrolviasms.activities.MainActivity
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:33:13-89
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:38:27-74
+receiver#eu.romainpellerin.remotecontrolviasms.broadcastreceivers.BootCompletedReceiver
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:42:9-47:20
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:42:19-112
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:43:13-46:29
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:44:17-82
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:44:25-79
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:45:25-76
+receiver#eu.romainpellerin.remotecontrolviasms.broadcastreceivers.SmsReceiver
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:48:9-55:20
+	android:exported
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:51:13-66
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:49:13-96
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:52:13-54:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:53:17-82
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:53:25-79
+receiver#eu.romainpellerin.remotecontrolviasms.broadcastreceivers.PowerButtonReceiver
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:56:9-63:20
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:56:19-110
+intent-filter#android.intent.action.SCREEN_OFF+android.intent.action.SCREEN_ON
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:57:13-62:29
+action#android.intent.action.SCREEN_OFF
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:58:17-59:26
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:58:25-72
+action#android.intent.action.SCREEN_ON
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:60:17-61:26
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:60:25-71
+service#eu.romainpellerin.remotecontrolviasms.PowerButtonService
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:65:9-92
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:65:18-89
+activity#eu.romainpellerin.remotecontrolviasms.activities.CancelAlarm
+ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:67:9-71:20
+	android:label
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:69:13-45
+	android:theme
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:70:13-44
+	android:name
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml:68:13-88
+uses-sdk
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-11.6.0.aar/ec3f365ccf942902c8fb3b155d43c155/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-11.6.0.aar/ec3f365ccf942902c8fb3b155d43c155/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.6.0.aar/49b1b3358503c75b1c212fefa0b92ec0/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.6.0.aar/49b1b3358503c75b1c212fefa0b92ec0/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.6.0.aar/f4d278aa50f86b5af4e09121d59d5c89/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.6.0.aar/f4d278aa50f86b5af4e09121d59d5c89/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.6.0.aar/8b8659c88e7681d28686398c9ab391e3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.6.0.aar/8b8659c88e7681d28686398c9ab391e3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/37618d6e591ce912510455f2393c73b9/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.6.0.aar/37618d6e591ce912510455f2393c73b9/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/dc43543192bd05a63ac47aa5d8730f4a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.6.0.aar/dc43543192bd05a63ac47aa5d8730f4a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/50bb7e202e50e6a84105d61e3428a731/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/50bb7e202e50e6a84105d61e3428a731/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-11.6.0.aar/fcdfaacda82f73dd826b54b83705890a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-11.6.0.aar/fcdfaacda82f73dd826b54b83705890a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.6.0.aar/6b822783537184ae50ea28a1d6f37501/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.6.0.aar/6b822783537184ae50ea28a1d6f37501/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-11.6.0.aar/ec6b50a0d1b800b79c133dcd78b6e539/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-11.6.0.aar/ec6b50a0d1b800b79c133dcd78b6e539/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.6.0.aar/e2bd4ab16cab73141a2f100c6b010a00/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.6.0.aar/e2bd4ab16cab73141a2f100c6b010a00/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.6.0.aar/44ebe2379a6e78407ea661982e7e1473/AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fido:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.6.0.aar/44ebe2379a6e78407ea661982e7e1473/AndroidManifest.xml:4:3-41
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/e16c0d2ee586b1dba21b37b3a9073cb9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.6.0.aar/e16c0d2ee586b1dba21b37b3a9073cb9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.6.0.aar/5cc158ac8c1cd2231f5786b7e393b752/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.6.0.aar/5cc158ac8c1cd2231f5786b7e393b752/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.6.0.aar/2370c65edb332a2b5ba061728b26ffbc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.6.0.aar/2370c65edb332a2b5ba061728b26ffbc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.6.0.aar/bfc23f6383e9cb78f5571210ea5808d8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.6.0.aar/bfc23f6383e9cb78f5571210ea5808d8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.6.0.aar/f830ea630210b3fba187fea8d853a3cc/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.6.0.aar/f830ea630210b3fba187fea8d853a3cc/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.6.0.aar/e12e29f55092c23bd381f653f59ff32b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.6.0.aar/e12e29f55092c23bd381f653f59ff32b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.6.0.aar/558c1ad395e067ebb8025c7ec25c0c99/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.6.0.aar/558c1ad395e067ebb8025c7ec25c0c99/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c50a93a35accf4daf9acca4b451a7f9a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-11.6.0.aar/c50a93a35accf4daf9acca4b451a7f9a/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-11.6.0.aar/37b9c13a0e950749f549ef038152ea23/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-11.6.0.aar/37b9c13a0e950749f549ef038152ea23/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.6.0.aar/768cb10239346b498a7127926fb42967/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.6.0.aar/6b5c9c9746330b49c5a70e8805ac23e0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.6.0.aar/6b5c9c9746330b49c5a70e8805ac23e0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.6.0.aar/d754af80d7500663df7cd47e1cbce7e3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.6.0.aar/d754af80d7500663df7cd47e1cbce7e3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.6.0.aar/6e81db95942d2fb3af3a18c722b3d892/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.6.0.aar/6e81db95942d2fb3af3a18c722b3d892/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.6.0.aar/a69b38ac193fae38380f0c35b9b9ce2f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.6.0.aar/a69b38ac193fae38380f0c35b9b9ce2f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.6.0.aar/69c37171a0c63c4baff90eb03d4dd274/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.6.0.aar/69c37171a0c63c4baff90eb03d4dd274/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.6.0.aar/a3289864de4019b086caca2fa1b5ac38/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.6.0.aar/a3289864de4019b086caca2fa1b5ac38/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.6.0.aar/70692dcdb1139481d8da7441a091d6a4/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.0.aar/0d9cdeafdf53935a7d83803cc41b4011/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-11.6.0.aar/0d9cdeafdf53935a7d83803cc41b4011/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.0.aar/ea9dc48d30667a676ba09694170c98d3/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.6.0.aar/ea9dc48d30667a676ba09694170c98d3/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.6.0.aar/7188283c81e8d1098730fee3c07db1ec/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.6.0.aar/7188283c81e8d1098730fee3c07db1ec/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.6.0.aar/ddda92936410ebc8835a49022bd4ab2f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.6.0.aar/ddda92936410ebc8835a49022bd4ab2f/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.6.0.aar/d0b5d52c8370899f478bc578eba20dd2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.6.0.aar/d0b5d52c8370899f478bc578eba20dd2/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/5191828eebbe013be401a9da0ec0e049/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.6.0.aar/5191828eebbe013be401a9da0ec0e049/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/8b447ac86434a1367fc3e250ca33ce12/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/8b447ac86434a1367fc3e250ca33ce12/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/c821fcf9da19ac2357cf68d0314c41d6/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-v4-25.2.0.aar/c821fcf9da19ac2357cf68d0314c41d6/AndroidManifest.xml:21:5-23:54
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.6.0.aar/bd73997ab9e1084a75efe1dc5c1ccd79/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-license-11.6.0.aar/bd73997ab9e1084a75efe1dc5c1ccd79/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.6.0.aar/db590854a42c8f259a440bdc0566793c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-license-11.6.0.aar/db590854a42c8f259a440bdc0566793c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.6.0.aar/872b1160dccf631f50a55515f50bc6e8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-license-11.6.0.aar/872b1160dccf631f50a55515f50bc6e8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.6.0.aar/3a89f131d79fd91a81401d877bfa8c8a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-license-11.6.0.aar/3a89f131d79fd91a81401d877bfa8c8a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-license-11.6.0.aar/3d0577b73a3b1760f4e46474990ed876/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-appinvite-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-license-11.6.0.aar/3d0577b73a3b1760f4e46474990ed876/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/424e886c09b4bd3d91fd3079b13ebc7c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-license-11.6.0.aar/424e886c09b4bd3d91fd3079b13ebc7c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/70ed768239e739c9cf54065ac8bda178/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-license-11.6.0.aar/70ed768239e739c9cf54065ac8bda178/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/4d40eef9df016ceb2db0e102f701dffe/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-license-11.6.0.aar/4d40eef9df016ceb2db0e102f701dffe/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/f79a2c43f3fc6a7163730a5cd3b06589/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-license-11.6.0.aar/f79a2c43f3fc6a7163730a5cd3b06589/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/6c3694cc2227a91c51b91f43e347feeb/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-license-11.6.0.aar/6c3694cc2227a91c51b91f43e347feeb/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/42e68e20d35767d216f77f34a48a5d56/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-license-11.6.0.aar/42e68e20d35767d216f77f34a48a5d56/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-license-11.6.0.aar/0a1164a491d1e7ef2f256709683fe23c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-config-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-config-license-11.6.0.aar/0a1164a491d1e7ef2f256709683fe23c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-license-11.6.0.aar/4ab7706b6f863f6c4b510b0c59ea1091/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-awareness-license-11.6.0.aar/4ab7706b6f863f6c4b510b0c59ea1091/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-11.6.0.aar/d35b80582d7c7bf40706709424988daa/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-crash-license-11.6.0.aar/d35b80582d7c7bf40706709424988daa/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-license-11.6.0.aar/d2df8cb6b3aebda1bda39572444aee74/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-drive-license-11.6.0.aar/d2df8cb6b3aebda1bda39572444aee74/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fido-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-license-11.6.0.aar/d24b323b280546d53aa9aecb6dc531d2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fido-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fido-license-11.6.0.aar/d24b323b280546d53aa9aecb6dc531d2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/04af3f58b9be0c852587a589334d24a7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-auth-license-11.6.0.aar/04af3f58b9be0c852587a589334d24a7/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/7fadc531e282f5c5f2e10a9f6902df6c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-license-11.6.0.aar/7fadc531e282f5c5f2e10a9f6902df6c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/120266ef2920f3847fc9818c0c677c34/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.6.0.aar/120266ef2920f3847fc9818c0c677c34/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-license-11.6.0.aar/bf1429d8407d2fa89bd9a6dfcad59b06/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-license-11.6.0.aar/bf1429d8407d2fa89bd9a6dfcad59b06/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/d407844b1d446f2078e2cf1d32935069/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.6.0.aar/d407844b1d446f2078e2cf1d32935069/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/b065965a8d6d893f6d06bd65a9587676/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-messaging-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-license-11.6.0.aar/b065965a8d6d893f6d06bd65a9587676/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/b6c86a28855abf780dc01a0d91649d2c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-license-11.6.0.aar/b6c86a28855abf780dc01a0d91649d2c/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/0387ec9069d806c8109d29d70126b643/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-storage-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-license-11.6.0.aar/0387ec9069d806c8109d29d70126b643/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/f4a49f3f1acc0b588cd71eeabf17cb03/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-license-11.6.0.aar/f4a49f3f1acc0b588cd71eeabf17cb03/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fitness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-license-11.6.0.aar/2e7c55452b6ea0f130923c4e7615d337/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-fitness-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-fitness-license-11.6.0.aar/2e7c55452b6ea0f130923c4e7615d337/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-license-11.6.0.aar/02e8eb90e1ab8305cd514905441ae2a1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-games-license-11.6.0.aar/02e8eb90e1ab8305cd514905441ae2a1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.6.0.aar/0d3e6b2e3027028cc836a09b0c8968b3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gass-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gass-license-11.6.0.aar/0d3e6b2e3027028cc836a09b0c8968b3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/c6c50fec22471ec6790177551eab77e3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-license-11.6.0.aar/c6c50fec22471ec6790177551eab77e3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-appindexing-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.6.0.aar/7a7f9bd59187c6c360465358d17e0b16/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-appindexing-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-license-11.6.0.aar/7a7f9bd59187c6c360465358d17e0b16/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.6.0.aar/2e634d61f87abc955bc35e2d50061806/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-identity-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-identity-license-11.6.0.aar/2e634d61f87abc955bc35e2d50061806/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/edad2756d33c539a395d73d66e1ba01b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-license-11.6.0.aar/edad2756d33c539a395d73d66e1ba01b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-license-11.6.0.aar/3116f9744064222b866a09b1944f314b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-instantapps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-license-11.6.0.aar/3116f9744064222b866a09b1944f314b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/875c68228cec32f8f8aedbc73fff0ff1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-location-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-location-license-11.6.0.aar/875c68228cec32f8f8aedbc73fff0ff1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/98df8d59bfe538341b7d55c900cd29bb/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-maps-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-license-11.6.0.aar/98df8d59bfe538341b7d55c900cd29bb/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/02074cf6712742b4c2c6121e4a900382/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.6.0.aar/02074cf6712742b4c2c6121e4a900382/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/51b6fd98d75c4486ed57370194735d8b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.6.0.aar/51b6fd98d75c4486ed57370194735d8b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-license-11.6.0.aar/aa8bc77cff99ced72c38293a7b5803a3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-nearby-license-11.6.0.aar/aa8bc77cff99ced72c38293a7b5803a3/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-panorama-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-license-11.6.0.aar/e82ce5dbcd477778accfce3d831030ea/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-panorama-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-panorama-license-11.6.0.aar/e82ce5dbcd477778accfce3d831030ea/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.6.0.aar/7080285effe0b76e3776be42ac6656c8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-places-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-license-11.6.0.aar/7080285effe0b76e3776be42ac6656c8/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-license-11.6.0.aar/586be0a06764e2b86364dfa23d6ba0ff/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-plus-license-11.6.0.aar/586be0a06764e2b86364dfa23d6ba0ff/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-license-11.6.0.aar/365f698fc6b1c826fb9b73d4a792acab/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-safetynet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-license-11.6.0.aar/365f698fc6b1c826fb9b73d4a792acab/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-license-11.6.0.aar/a8aaa82056d610f40f6d69103848f3fa/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-license-11.6.0.aar/a8aaa82056d610f40f6d69103848f3fa/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-license-11.6.0.aar/18b1f4d3302a3661cfbceefd13e5813b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-license-11.6.0.aar/18b1f4d3302a3661cfbceefd13e5813b/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.6.0.aar/ce2f8877d88c2dbf578a0beaee0610a5/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-license-11.6.0.aar/ce2f8877d88c2dbf578a0beaee0610a5/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/27f2a44af4edda15b37bf2d5366cec5a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tasks-license-11.6.0.aar/27f2a44af4edda15b37bf2d5366cec5a/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.6.0.aar/5188cd02e4976fd4c91b70cc43e76f78/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-11.6.0.aar/5188cd02e4976fd4c91b70cc43e76f78/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.6.0.aar/8f7ba493958b6de818771ab608fdafa1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-11.6.0.aar/8f7ba493958b6de818771ab608fdafa1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wallet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.6.0.aar/954591c08c5c93522a1a1130d1a98f9d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wallet-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-license-11.6.0.aar/954591c08c5c93522a1a1130d1a98f9d/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.6.0.aar/35e1ce9f6f87314f8764ba6cbda10bdd/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-wearable-license:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.6.0.aar/35e1ce9f6f87314f8764ba6cbda10bdd/AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0f168a184f0499592b928dbd10e9b24c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/0f168a184f0499592b928dbd10e9b24c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/e9698807482a00d7d033b97f668914b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.2.0.aar/e9698807482a00d7d033b97f668914b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/60b1152a21f7657944da5f7a36c567cc/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.2.0.aar/60b1152a21f7657944da5f7a36c567cc/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/78e1a967114c2126e9ad32e86e7a0564/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-fragment-25.2.0.aar/78e1a967114c2126e9ad32e86e7a0564/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/e11483bb6f9e83a74bdde25d1decefb4/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.2.0.aar/e11483bb6f9e83a74bdde25d1decefb4/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/ee445dc4137092dc954dbef5557fc787/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.2.0.aar/ee445dc4137092dc954dbef5557fc787/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/5d6c76e18589e77c764bb37691a247f6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.2.0.aar/5d6c76e18589e77c764bb37691a247f6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/4431c5f6f7a23383e6e7ccabee3540d5/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.2.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/support-compat-25.2.0.aar/4431c5f6f7a23383e6e7ccabee3540d5/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.6.0.aar/49b1b3358503c75b1c212fefa0b92ec0/AndroidManifest.xml:17:42-92
+	android:targetSdkVersion
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		ADDED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+		INJECTED from /home/aljosa/Projects/Remote-Control-via-SMS/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.6.0.aar/5d90682e8b84721caa3eaeb309756c5f/AndroidManifest.xml:25:19-71
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.6.0.aar/6384d0ee631f9b0bf104b66e88457422/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:27:9-28:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:27:85-107
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:27:108-132
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:27:19-84
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:29:9-132
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:29:83-105
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:29:106-130
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:29:18-82
+service#com.google.android.gms.analytics.AnalyticsJobService
+ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:30:9-192
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:30:143-165
+	android:exported
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:30:166-190
+	android:permission
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:30:86-142
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.6.0.aar/5c9a1b9a2cf0fc272c3b2cc56d1785d5/AndroidManifest.xml:30:18-85
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.6.0.aar/ff7f6cbcb621545feb04b30cb6e435f5/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.6.0.aar/459076a2b86ba58adcbfd65a388398fc/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/AndroidManifest.xml:7:18-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.6.0.aar/a9f3d2119b256a1d9d5ba4760b6e8a92/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:23:5-81
+MERGED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/AndroidManifest.xml:20:22-79
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.6.0.aar/1b2a68fc427fee1c851a1f8ce10e9253/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.6.0.aar/656bfac45a3019f8b33a9ab550482400/AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.6.0.aar/5dff665070dd995497972cd7c76848fb/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.6.0.aar/3f132955db2e9305889c87fb9147fecc/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:25:17-71
+permission#eu.romainpellerin.remotecontrolviasms.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:25:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:25:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:27:22-76
+uses-permission#eu.romainpellerin.remotecontrolviasms.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:27:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:31:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:31:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:31:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:31:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:32:13-35:29
+intent-filter#com.google.android.c2dm.intent.RECEIVE+eu.romainpellerin.remotecontrolviasms
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:32:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:33:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:33:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:34:27-58
+category#eu.romainpellerin.remotecontrolviasms
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:34:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:40:9-44:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:40:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:40:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:41:13-43:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:41:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.6.0.aar/685ab02c8a415885fc62585aa94a75d6/AndroidManifest.xml:42:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.6.0] /home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-common-11.6.0.aar/708e5c9f91dc614e0f6d91368719e649/AndroidManifest.xml:6:79-143

@@ -1,0 +1,196 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/aljosa/Projects/Remote-Control-via-SMS/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml",
+            "map": [
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.6.0.aar/4f1070c06c6ce2571485cd29a2adf30b/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "243",
+                        "endColumns": "99",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "76",
+                        "startColumns": "4",
+                        "startOffsets": "8626",
+                        "endColumns": "103",
+                        "endOffsets": "8725"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.2.0.aar/263df91163ef798e3d0c5230c6943919/res/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,271,395,497,606,692,797,914,995,1076,1160,1264,1373,1472,1578,1688,1795,1917,2015,2097",
+                        "endColumns": "106,108,123,101,108,85,104,116,80,80,83,103,108,98,105,109,106,121,97,81,100",
+                        "endOffsets": "157,266,390,492,601,687,792,909,990,1071,1155,1259,1368,1467,1573,1683,1790,1912,2010,2092,2193"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,107,108",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,321,445,547,656,742,847,964,1045,1126,1210,1314,1423,1522,1628,1738,1845,1967,11666,11748",
+                        "endColumns": "106,108,123,101,108,85,104,116,80,80,83,103,108,98,105,109,106,121,97,81,100",
+                        "endOffsets": "207,316,440,542,651,737,842,959,1040,1121,1205,1309,1418,1517,1623,1733,1840,1962,2060,11743,11844"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.6.0.aar/9f53445748a92d9ab63b38d01fe65142/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "298,374,477,567,688,825,903,1086,1199,1305,1419,1516,1619,1701,1798,1895,1999,2071,2147,2219,2299,2394,2489,2577,2670,2767,2840,2938,3030,3125,3237,3381,3473,3560,3659",
+                        "endColumns": "75,102,89,120,136,77,182,112,105,113,96,102,81,96,96,103,71,75,71,79,94,94,87,92,96,72,97,91,94,111,143,91,86,98,78",
+                        "endOffsets": "373,476,566,687,824,902,1085,1198,1304,1418,1515,1618,1700,1797,1894,1998,2070,2146,2218,2298,2393,2488,2576,2669,2766,2839,2937,3029,3124,3236,3380,3472,3559,3658,3737"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2065,2145,2252,2346,2471,2608,2690,2877,2994,3104,3222,3323,3430,3516,3617,3718,3826,4292,4372,4448,4532,4631,4730,4822,4919,5020,5097,5199,5295,5394,5510,5654,5750,5841,5944",
+                        "endColumns": "79,106,93,124,136,81,186,116,109,117,100,106,85,100,100,107,75,79,75,83,98,98,91,96,100,76,101,95,98,115,143,95,90,102,82",
+                        "endOffsets": "2140,2247,2341,2466,2603,2685,2872,2989,3099,3217,3318,3425,3511,3612,3713,3821,3897,4367,4443,4527,4626,4725,4817,4914,5015,5092,5194,5290,5389,5505,5649,5745,5836,5939,6022"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-places-11.6.0.aar/37b9c13a0e950749f549ef038152ea23/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "233,339",
+                        "endColumns": "105,96",
+                        "endOffsets": "338,435"
+                    },
+                    "to": {
+                        "startLines": "98,99",
+                        "startColumns": "4,4",
+                        "startOffsets": "10843,10953",
+                        "endColumns": "109,100",
+                        "endOffsets": "10948,11049"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.6.0.aar/bba17d367ae88c54d9d4a1a1cda0668d/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "230",
+                        "endColumns": "96",
+                        "endOffsets": "326"
+                    },
+                    "to": {
+                        "startLines": "77",
+                        "startColumns": "4",
+                        "startOffsets": "8730",
+                        "endColumns": "100",
+                        "endOffsets": "8826"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.6.0.aar/50bb7e202e50e6a84105d61e3428a731/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "288,434,583",
+                        "endColumns": "145,148,90",
+                        "endOffsets": "433,582,673"
+                    },
+                    "to": {
+                        "startLines": "38,39,40",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3902,4048,4197",
+                        "endColumns": "145,148,94",
+                        "endOffsets": "4043,4192,4287"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/8b447ac86434a1367fc3e250ca33ce12/res/values-cs/values-cs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,275,391,505,601,687,779,893,990,1084,1175,1269,1394,1511,1600,1684,1780,1886,1972",
+                        "endColumns": "106,112,115,113,95,85,91,113,96,93,90,93,124,116,88,83,95,105,85,94",
+                        "endOffsets": "157,270,386,500,596,682,774,888,985,1079,1170,1264,1389,1506,1595,1679,1775,1881,1967,2062"
+                    },
+                    "to": {
+                        "startLines": "78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "8831,8938,9051,9167,9281,9377,9463,9555,9669,9766,9860,9951,10045,10170,10287,10376,10460,10556,10662,10748",
+                        "endColumns": "106,112,115,113,95,85,91,113,96,93,90,93,124,116,88,83,95,105,85,94",
+                        "endOffsets": "8933,9046,9162,9276,9372,9458,9550,9664,9761,9855,9946,10040,10165,10282,10371,10455,10551,10657,10743,10838"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-base-11.6.0.aar/e3ead828e0d5e7877a85176b0184ca25/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "283,387,579,702,810,1022,1147,1273,1507,1616,1811,1937,2157,2338,2432,2525",
+                        "endColumns": "103,191,122,107,211,124,125,233,108,194,125,219,180,93,92,110",
+                        "endOffsets": "386,578,701,809,1021,1146,1272,1506,1615,1810,1936,2156,2337,2431,2524,2635"
+                    },
+                    "to": {
+                        "startLines": "59,60,61,62,63,64,65,67,68,69,70,71,72,73,74,75",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6027,6135,6327,6454,6566,6778,6907,7239,7473,7586,7781,7911,8131,8316,8414,8511",
+                        "endColumns": "107,191,126,111,211,128,129,233,112,194,129,219,184,97,96,114",
+                        "endOffsets": "6130,6322,6449,6561,6773,6902,7032,7468,7581,7776,7906,8126,8311,8409,8506,8621"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.6.0.aar/76d2a578141f7e304c68874b185be832/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "201",
+                        "endOffsets": "486"
+                    },
+                    "to": {
+                        "startLines": "66",
+                        "startColumns": "4",
+                        "startOffsets": "7037",
+                        "endColumns": "201",
+                        "endOffsets": "7234"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.6.0.aar/49b1b3358503c75b1c212fefa0b92ec0/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "237,309,421,487,554,640,747",
+                        "endColumns": "71,111,65,66,85,106,73",
+                        "endOffsets": "308,420,486,553,639,746,820"
+                    },
+                    "to": {
+                        "startLines": "100,101,102,103,104,105,106",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "11054,11130,11246,11316,11387,11477,11588",
+                        "endColumns": "75,115,69,70,89,110,77",
+                        "endOffsets": "11125,11241,11311,11382,11472,11583,11661"
+                    }
+                },
+                {
+                    "source": "/home/aljosa/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.6.0.aar/f830ea630210b3fba187fea8d853a3cc/res/values-cs/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "240",
+                        "endColumns": "104",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "109",
+                        "startColumns": "4",
+                        "startOffsets": "11849",
+                        "endColumns": "108",
+                        "endOffsets": "11953"
+                    }
+                }
+            ]
+        }
+    ]
+}
