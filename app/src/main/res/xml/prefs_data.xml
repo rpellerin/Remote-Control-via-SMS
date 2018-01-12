@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory android:title="@string/pref_general" >
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="data_enable"
+            android:switchTextOff="@string/pref_off"
+            android:switchTextOn="@string/pref_on"
+            android:title="@string/pref_enable"
+            android:summaryOn="@string/pref_enabled"
+            android:summaryOff="@string/pref_disabled"/>
+        <EditTextPreference
+            android:defaultValue="data"
+            android:key="data_sms"
+            android:inputType="textNoSuggestions"
+            android:maxLength="10"
+            android:summary="@string/max_char"
+            android:title="@string/sms_to_enable" />
+    </PreferenceCategory>
+</PreferenceScreen>

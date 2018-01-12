@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pref_general">General</string>
+    <string name="pref_enable">Enable</string>
+    <string name="pref_on">On</string>
+    <string name="pref_off">Off</string>
+    <string name="pref_enabled">Enabled</string>
+    <string name="pref_disabled">Disabled</string>
+    <string name="pref_yes">Yes</string>
+    <string name="pref_no">No</string>
+    <string name="sms_to_enable">SMS to be received</string>
+    <string name="sms_to_send">SMS to send</string>
+    <string name="recipient">Recipient(s)</string>
+    <string name="max_char">10 char. max / Not case sensitive</string>
+    
+    <!-- BEEP -->
+    <string name="beep_play_again">Play loop?</string>
+    <string name="beep_vol">Volume</string>
+    <string name="beep_vol_sum">Adjust the alarm volume</string>
+</resources>
